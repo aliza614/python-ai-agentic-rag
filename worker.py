@@ -30,7 +30,7 @@ def init_llm():
     logger.info("Initializing WatsonxLLM and embeddings...")
 
     # Llama Model Configuration
-    MODEL_ID = "meta-llama/llama-3-3-70b-instruct"
+    MODEL_ID = "meta-llama/llama-3-405b-instruct"
     WATSONX_URL = "https://us-south.ml.cloud.ibm.com"
     PROJECT_ID = "skills-network"
 
